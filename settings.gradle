@@ -1,0 +1,4 @@
+include ':app', ':exdevice'
+include ':AdProject'
+project(':AdProject').projectDir = new File('../AdProject/')
+include ':AdProject:AdUtils'
